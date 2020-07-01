@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gird bootstrap 4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style media="screen">
+      .contenedor{
+        margin-bottom: 20px;
+        background: #e8e8e8;
+        color: #fff;
+        height: 200px;
+      }
+      .contenedor div{
+        background: #4f5ef5;
+        padding: 20px;
+        border: 1px solid rgba(255,255,255,.25);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row my-4">
+        <div class="col">
+          <h4>Aling Items</h4>
+          <hr>
+
+          <p>.align-items-start</p>
+          <div class="contenedor d-flex align-items-start">
+            <div>Caja 1</div>
+            <div>Cja 2</div>
+            <div>Caja 3</div>
+          </div>
+
+          <p>.align-items-center</p>
+          <div class="contenedor d-flex align-items-center">
+            <div>Caja 1</div>
+            <div>Cja 2</div>
+            <div>Caja 3</div>
+          </div>
+
+          <p>.align-items-end</p>
+          <div class="contenedor d-flex align-items-end">
+            <div>Caja 1</div>
+            <div>Cja 2</div>
+            <div>Caja 3</div>
+          </div>
+
+
+          <p>.align-items-stretch</p>
+          <div class="contenedor d-flex align-items-stretch">
+            <div>Caja 1</div>
+            <div>Cja 2</div>
+            <div>Caja 3</div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="row my-4">
+
+        <div class="col">
+
+          <h4>Align self</h4>
+          <hr>
+
+          <div class="contenedor d-flex ">
+            <div class="align-self-start">align-self-start</div>
+            <div class="align-self-center">align-self-center</div>
+            <div class="align-self-end">align-self-end</div>
+            <div class="align-self-stretch">align-self-stretch</div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+          <h4>Auto Margins</h4>
+          <hr>
+
+          <div class="contenedor d-flex justify-content-end">
+            <div class="mr-auto">Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+          </div>
+
+          <div class="contenedor d-flex flex-column align-items-start" style="height: 250px;">
+            <div class="mb-auto">Caja 1</div>
+            <div>Caja 2</div>
+            <div>Caja 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </body>
+</html>
